@@ -1,4 +1,5 @@
-export const API = "http://localhost:5000/api";
+export const API = "https://student-checkin-f9a0.onrender.com/api";
+
 
 export async function addEntry(data) {
   const res = await fetch(`${API}/entry`, {
